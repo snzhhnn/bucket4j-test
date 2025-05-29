@@ -1,1 +1,15 @@
-
+rate:
+  limit:
+    settings:
+      - key: logistics-docs
+        capacity: 1000000
+        refillTokens: 1000
+        refillPeriod: 1
+        timeUnit: DAYS
+        version: 5
+      - key: pnb-index-aggregator
+        capacity: 10000
+        refillTokens: 1000
+        refillPeriod: 1
+        timeUnit: DAYS
+        version: 5
