@@ -1,0 +1,15 @@
+rate:
+  limit:
+    settings:
+      - key: ${LOGISTICS_DOCS_SECRET}
+        capacity: 1000000
+        refillTokens: 1000
+        refillPeriod: 1
+        timeUnit: DAYS
+        version: 5
+      - key: ${PNB_INDEX_AGGREGATOR_SECRET}
+        capacity: 10000
+        refillTokens: 1000
+        refillPeriod: 1
+        timeUnit: DAYS
+        version: 5
