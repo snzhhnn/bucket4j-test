@@ -1,7 +1,7 @@
 rate:
   limit:
     settings:
-      - key: ${LOGISTICS_DOCS_SECRET}
+      - key: logistics-docs
         capacity: 1000000
         refillTokens: 1000
         refillPeriod: 1
